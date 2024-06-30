@@ -11,11 +11,28 @@
             "id": "17158d3bcc4abd37",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Setting/_coverpage.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "65da722971b371f1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "acfb04c873d7d743",
@@ -95,6 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,6 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -132,7 +151,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "README.md"
+              }
             }
           }
         ]
@@ -152,14 +173,24 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "17158d3bcc4abd37",
+  "active": "ce384b29c6b764e4",
   "lastOpenFiles": [
+    "Setting/js/sidebar-right.js",
+    "Setting/js/sidebar-left.js",
+    "Setting/js/other.js",
+    "Setting/js/init.js",
+    "Setting/js/header.js",
+    "Setting/js/config.js",
+    "Setting/js",
+    "Setting/css/sidebar-right.css",
+    "Setting/css/sidebar-left.css",
+    "Setting/css/reset.css",
+    "Setting/css/mobile.css",
+    "Setting/_sidebar.md",
+    "Setting/_coverpage.md",
     "README.md",
-    "index.html",
-    "_navbar.md",
-    "_coverpage.md",
+    "Setting/_navbar.md",
     "Welcome.md",
-    "Lacuna",
     "index.md"
   ]
 }
