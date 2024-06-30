@@ -14,39 +14,27 @@
 	<link rel="stylesheet" href="./css/custom.css" />
 	<!-- latex -->
 	<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css" />
-
 </head>
 
 <body>
-  <nav>
-	<a href="#/en/">
-		<img src="./svg/en.svg" alt="SVG Image" width="36" height="36" style="margin-right: 20px">
-	</a>
-	<a href="#/">
-		<img src="./svg/cn.svg" alt="SVG Image" width="36" height="36" style="margin-right: 20px">
-	</a>
-  </nav>
   <div id="app"></div>
   
   <script>
     window.$docsify = {
 	alias: {
 		  /* 使用自定义的侧边栏 */
-		  '/_sidebar.md': '/Setting/_sidebar.md',
-		  '/Setting/.*/_sidebar.md': '/Setting/_sidebar.md',
+		  '/_sidebar.md': '/GMP/Setting/_sidebar.md',
+		  '/GMP/Setting/.*/_sidebar.md': '/GMP/Setting/_sidebar.md',
 		  '/book-sketches/.*/_sidebar.md': '/book-sketches/_sidebar.md',
 		  /* 使用自定义的侧边栏 */
 		  '/.*/_navbar.md': '/_navbar.md'
 		},
-	name: '🪐 Lacuna',
-	// 点击标题后的跳转地址
-	// nameLink: '/',
+	name: 'Topology',
 	repo: '',
 	coverpage: false,
 	loadNavbar: true,
 	loadSidebar: true,
 	subMaxLevel: 5,
-	sidebarDisplayLevel: 1,
 	search: {
 		paths: 'auto',
 		placeholder: '搜索内容 Search',
@@ -61,8 +49,7 @@
         errorText: 'Error! 复制错误',
         successText: 'Success! 复制成功'
 		},
-
-	};
+	}
 	</script>
 	<!-- Docsify v4 -->
 	<script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
@@ -113,12 +100,9 @@
 	<script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-yaml.min.js"></script>
 	<script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-properties.min.js"></script>
 	<script src="//cdn.jsdelivr.net/npm/prismjs/components/matlab.min.js"></script>
-	<!-- 外链脚本 -->
+	 <!-- 外链脚本 -->
 	<script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/external-script.min.js"></script>
 	<!-- 链接下一篇文章-->
 	<script src="//cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
-	<!-- 侧边栏收缩 -->
-	<script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
-	
 </body>
 </html>
