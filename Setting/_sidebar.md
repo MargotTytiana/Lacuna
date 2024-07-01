@@ -1,7 +1,7 @@
 *  📘 物理学中的几何方法  --  *Geometric Methods in Physics*
     * [内容简介](GMP/intro.md)
-	* [Topology](GMP/summary.md)
-		*  [Topological Space](GMP/1-Topology/Topological-Space.md)
+	* [第一部分：拓扑](GMP/1-Topology/summary.md)
+		*  [拓扑空间](GMP/1-Topology/Topological-Space.md)
 		*  [Metric Spaces](GMP/1-Topology/Metric-Spaces.md)
 		*  [Continuity](GMP/1-Topology/Continuity.md)
 		*  [Subspaces, Products, and Quotients](GMP/1-Topology/SPQ.md)

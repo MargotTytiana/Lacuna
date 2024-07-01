@@ -13,37 +13,10 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Setting/_coverpage.md",
+                "file": "GMP/1-Topology/Topological-Space.md",
                 "mode": "source",
                 "source": false
               }
-            }
-          },
-          {
-            "id": "65da722971b371f1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ],
-        "currentTab": 1
-      },
-      {
-        "id": "acfb04c873d7d743",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "1ef1925f77ef0e67",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
             }
           }
         ]
@@ -112,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "GMP/1-Topology/Topological-Space.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "GMP/1-Topology/Topological-Space.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "GMP/1-Topology/Topological-Space.md"
               }
             }
           }
@@ -173,8 +146,16 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "ce384b29c6b764e4",
+  "active": "17158d3bcc4abd37",
   "lastOpenFiles": [
+    "Setting/_coverpage.md",
+    "pic/领域.png",
+    "GMP/1-Topology/Topological-Space.md",
+    "pic/开集.png",
+    "pic/默认标题__2024-07-01+18_56_59.png.crdownload",
+    "pic",
+    "新建文件夹",
+    "README.md",
     "Setting/js/sidebar-right.js",
     "Setting/js/sidebar-left.js",
     "Setting/js/other.js",
@@ -182,13 +163,7 @@
     "Setting/js/header.js",
     "Setting/js/config.js",
     "Setting/js",
-    "Setting/css/sidebar-right.css",
-    "Setting/css/sidebar-left.css",
-    "Setting/css/reset.css",
-    "Setting/css/mobile.css",
     "Setting/_sidebar.md",
-    "Setting/_coverpage.md",
-    "README.md",
     "Setting/_navbar.md",
     "Welcome.md",
     "index.md"
