@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "17158d3bcc4abd37",
+            "id": "b83f6de4847425b3",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -146,11 +146,18 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "17158d3bcc4abd37",
+  "active": "b83f6de4847425b3",
   "lastOpenFiles": [
+    "topology.pdf",
+    "topology.pdf.crdownload",
+    "css/katex.js",
+    "under-construction.md",
+    "GMP/1-Topology/Topological-Space.md",
+    "_glossary.md",
+    "Setting/_glossary.md",
+    "子空间.md",
     "Setting/_coverpage.md",
     "pic/领域.png",
-    "GMP/1-Topology/Topological-Space.md",
     "pic/开集.png",
     "pic/默认标题__2024-07-01+18_56_59.png.crdownload",
     "pic",
@@ -161,8 +168,6 @@
     "Setting/js/other.js",
     "Setting/js/init.js",
     "Setting/js/header.js",
-    "Setting/js/config.js",
-    "Setting/js",
     "Setting/_sidebar.md",
     "Setting/_navbar.md",
     "Welcome.md",

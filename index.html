@@ -17,7 +17,10 @@
 	<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css" />
 	<!-- link docsify-dark-switch.css  -->
 	<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-dark-switch/dist/docsify-dark-switch.css">
-
+	<link rel="stylesheet" href="./css/katex.js" />
+	<!-- katex 公式复制 -->
+	<link href="https://cdn.bootcdn.net/ajax/libs/KaTeX/0.12.0/contrib/copy-tex.css" rel="stylesheet">
+	
 </head>
 
 <body>
@@ -30,7 +33,7 @@
 	</a>
   </nav>
   <div id="app"></div>
-  
+
   <script>
     window.$docsify = {
 	alias: {
@@ -38,7 +41,6 @@
 		  '/_sidebar.md': '/Setting/_sidebar.md',
 		  '/Setting/.*/_sidebar.md': '/Setting/_sidebar.md',
 		  '/book-sketches/.*/_sidebar.md': '/book-sketches/_sidebar.md',
-		  /* 使用自定义的侧边栏 */
 		  '/.*/_navbar.md': '/_navbar.md'
 		},
 	name: '🪐 Lacuna',
@@ -48,7 +50,7 @@
 	coverpage: false,
 	loadNavbar: true,
 	loadSidebar: true,
-	subMaxLevel: 5,
+	subMaxLevel: 2,
 	sidebarDisplayLevel: 1,
 	search: {
 		paths: 'auto',
@@ -69,7 +71,7 @@
         debug: false,
 		style: {top:'60px'},
 		},
-	
+
 	};
 	</script>
 	<!-- Docsify v4 -->
@@ -139,5 +141,11 @@
 	<script src="//cdn.jsdelivr.net/npm/docsify-dark-switch/dist/docsify-dark-switch.min.js"></script>
 	<!-- 给网页上的中文和英文、数字、符号之间添加空格。 -->
 	<script src="//cdn.jsdelivr.net/npm/docsify-pangu/lib/pangu.min.js"></script>
-</body>
+	<!-- docsify-glossary 词汇表 -->
+	<script src="//unpkg.com/docsify-glossary/dist/docsify-glossary.min.js"></script>
+	<!-- katex 公式复制 -->
+	<script src="https://cdn.bootcdn.net/ajax/libs/KaTeX/0.12.0/contrib/copy-tex.js"></script>
+	// mhchem 扩展
+	<script src="https://cdn.bootcdn.net/ajax/libs/KaTeX/0.12.0/contrib/mhchem.min.js"></script>
+	
 </html>
