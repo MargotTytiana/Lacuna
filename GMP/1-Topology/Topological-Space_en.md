@@ -1,0 +1,3 @@
+
+# 开集
+ In the familiar setting of a [metric space](https://brilliant.org/wiki/metric-space/ "metric space"), the open sets have a natural description, which can be thought of as a generalization of an open interval on the [real number line](https://brilliant.org/wiki/representation-on-the-real-line/ "real number line"). Intuitively, an open set is a set that does not contain its **boundary**, in the same way that the endpoints of an interval are not contained in the interval.

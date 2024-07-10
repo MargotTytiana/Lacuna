@@ -20,7 +20,15 @@
 	<link rel="stylesheet" href="./css/katex.js" />
 	<!-- katex 公式复制 -->
 	<link href="https://cdn.bootcdn.net/ajax/libs/KaTeX/0.12.0/contrib/copy-tex.css" rel="stylesheet">
-	
+	<!-- Table of Contents -->
+	<!-- <link rel="stylesheet" href="https://unpkg.com/docsify-toc@1.0.0/dist/toc.css"> -->
+	<!-- font awesome -->
+	<link rel="stylesheet" href="//unpkg.com/@fortawesome/fontawesome-free/css/fontawesome.css" />
+	<link rel="stylesheet" href="//unpkg.com/@fortawesome/fontawesome-free/css/brands.css" />
+	<link rel="stylesheet" href="//unpkg.com/@fortawesome/fontawesome-free/css/regular.css" />
+	<link rel="stylesheet" href="//unpkg.com/@fortawesome/fontawesome-free/css/solid.css" />
+	<!-- Docsify Navbar Fixed -->
+	<!-- <link rel="stylesheet" href="//rawcdn.githack.com/LIGMATV/docsify-navbar-fixed/main/navbar-fixed.css"> -->
 </head>
 
 <body>
@@ -38,7 +46,7 @@
     window.$docsify = {
 	alias: {
 		  /* 使用自定义的侧边栏 */
-		  '/_sidebar.md': '/Setting/_sidebar.md',
+		  '/_sidebar.md': '_sidebar.md',
 		  '/Setting/.*/_sidebar.md': '/Setting/_sidebar.md',
 		  '/book-sketches/.*/_sidebar.md': '/book-sketches/_sidebar.md',
 		  '/.*/_navbar.md': '/_navbar.md'
@@ -56,7 +64,7 @@
 		paths: 'auto',
 		placeholder: '搜索内容 Search',
 		noData: '找不到结果 Not existing',
-		depth: 3,
+		depth: 5,
 		},
 	// 切换页面后是否自动跳转到页面顶部
 	auto2top: true,
@@ -71,7 +79,59 @@
         debug: false,
 		style: {top:'60px'},
 		},
-
+	
+	tabs: {
+		persist: true, // default
+		sync: true, // default
+		theme: 'classic', // default
+		tabComments: true, // default
+		tabHeadings: true // default
+		},
+	// toc: {
+	// 	scope: '.markdown-section',
+	// 	headings: 'h1, h2, h3, h4, h5, h6',
+	// 	title: 'Table of Contents',
+	// 	},
+	'flexible-alerts': {
+		style: 'flat',
+		note: {
+			label: {
+				'/en/': 'Definition',
+				'/': '定义',
+				},
+			icon: 'fas far fa-book',
+			className: 'note'
+			},
+		tip: {
+			label: {
+				'/en/': 'Tip',
+				'/': '提示',
+				},
+			},
+		warning: {
+			label: {
+				'/en/': 'Warning',
+				'/': '警告',
+				},
+			},
+		attention: {
+			label: {
+				'/en/': 'Attention',
+				'/': '注意',
+				},
+			},
+		},
+	glossify: {
+	    debug: true,
+	    // glossaryLocation: './X_Appendix/Glossary/HOME.md', # default is '_glossary.md'
+	    terminologyHeading: '#', // default is '####', overwrite to fit your glossary heading depth
+	    replaceTitleTerms: true,
+		},
+	timeUpdater: {
+		text: "<div align='center' width='200px' style='color:gray;font-size:16px'>Last Update Time @ {docsify-updated}</div>",
+		formatUpdated: "{YYYY}/{MM}/{DD} {HH}:{mm}",
+		whereToPlace: "bottom",  // "top" or "bottom", default to "bottom"
+		},		
 	};
 	</script>
 	<!-- Docsify v4 -->
@@ -87,22 +147,18 @@
 	<script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-shell-session.min.js"></script>
 	<script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-python.min.js"></script>
 	<script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-http.mijs"></script>
-    <!-- 字数统计 -->
-	<script src="//unpkg.com/docsify-count/dist/countable."></script>
-	<!-- 回到顶部功能 -->
-	<script src="https://cdn.jsdelivr.net/gh/wugenqiang/NoteBo@master/plugin/jquery.js"></script>
-	<script src="https://cdn.jsdelivnet/gh/wugenqig/NoteBook@master/plun/jquery.goup.js"></script>
-	<script type="text/javasipt">
-	  $(document).rdy(function () {
-		$.gou{
-		  trger: 100,
-		  bottomOffset: 52,
-		  locationOffset: 25,
-		  //title: 'TOP',
-		  titleAsText: true
-		});
-	  });
-	  </script>
+	<!-- 回到顶部功能 -->	
+	<script src="https://cdn.jsdelivr.net/gh/Sumsung524/docsify-backTop/dist/docsify-backTop.min.js"></script>
+	<script>
+	    docsifyBackTop = {
+	        size: 32,           	// 数值，组件大小，默认值32。
+	        bottom: 15,         	// 数值，组件底部偏移距离，默认值15。
+	        right: 15,          	// 数值，组件右侧偏移距离，默认值15。
+	        logo: '<svg t="1720594696864" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="43467" width="200" height="200"><path d="M512 512m-512 0a512 512 0 1 0 1024 0 512 512 0 1 0-1024 0Z" fill="#69A794" p-id="43468" data-spm-anchor-id="a313x.search_index.0.i12.6d583a817xXYPK" class="selected"></path><path d="M514.1504 413.6704a15.9744 15.9744 0 0 1 21.2992 0l148.992 137.3696c11.776 10.8544 7.7824 19.6352-8.8576 19.6352h-90.4704v143.9744c0 15.3344-13.4912 27.7504-30.1568 27.7504h-60.3136c-16.64 0-30.1568-12.416-30.1568-27.7504v-143.9744H374.016c-16.64 0-20.608-8.8064-8.832-19.6352l148.9664-137.3696zM687.5392 332.8H336.4608C320.3072 332.8 307.2 321.3312 307.2 307.2s13.1072-25.6 29.2608-25.6h351.0784c16.1536 0 29.2608 11.4688 29.2608 25.6s-13.1072 25.6-29.2608 25.6z" fill="#FFFFFF" p-id="43469"></path></svg>',				// logo:字符串或svg矢量图代码，默认为svg代码图标。
+	        // bgColor: '\#D3D3D4'    	// 背景颜色，#fff、pink等，logo为svg图标时，不填。
+	    };
+	</script>	
+
 	<script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script>
 	<!-- 图片放大 -->
 	<script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
@@ -127,25 +183,54 @@
 	<script src="//cdn.jsdelivr.net/npm/prismjs/components/matlab.min.js"></script>
 	<!-- 外链脚本 -->
 	<script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/external-script.min.js"></script>
-	<!-- 链接下一篇文章-->
-	<script src="//cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
 	<!-- 侧边栏收缩 -->
 	<script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
-<!-- 	离线模式
-	<script>
-	  if (typeof navigator.serviceWorker !== 'undefined') {
-	    navigator.serviceWorker.register('sw.js')
-	  }
-	</script> -->
 	<!-- script docsify-dark-switch.js or docsify-dark-switch.min.js  -->
 	<script src="//cdn.jsdelivr.net/npm/docsify-dark-switch/dist/docsify-dark-switch.min.js"></script>
 	<!-- 给网页上的中文和英文、数字、符号之间添加空格。 -->
 	<script src="//cdn.jsdelivr.net/npm/docsify-pangu/lib/pangu.min.js"></script>
 	<!-- docsify-glossary 词汇表 -->
-	<script src="//unpkg.com/docsify-glossary/dist/docsify-glossary.min.js"></script>
+	<script src="./docsify-glossary.min.js"></script>
 	<!-- katex 公式复制 -->
 	<script src="https://cdn.bootcdn.net/ajax/libs/KaTeX/0.12.0/contrib/copy-tex.js"></script>
-	// mhchem 扩展
+	<!-- mhchem 扩展 -->
 	<script src="https://cdn.bootcdn.net/ajax/libs/KaTeX/0.12.0/contrib/mhchem.min.js"></script>
+	<!-- https://jhildenbiddle.github.io/docsify-tabs/#/  -->
+
+	<!-- docsify-tabs (latest v1.x.x) -->
+	<script src="https://cdn.jsdelivr.net/npm/docsify-tabs@1"></script>
+	<!-- Table of Contents -->
+	<!-- <script src="https://unpkg.com/docsify-toc@1.0.0/dist/toc.js"></script> -->
+	<!-- Flexible Alerts -->
+	<!-- https://github.com/fzankl/docsify-plugin-flexible-alerts -->
+	<script src="https://unpkg.com/docsify-plugin-flexible-alerts"></script>
+	<!-- font awesome 图标库-->
+	<script src="//unpkg.com/docsify-fontawesome/dist/docsify-fontawesome.min.js"></script>
+	<!-- docsify-slides 页面分块-->
+	<!-- https://www.shawntabrizi.com/docsify-slides/#/ -->
+	<script src="//unpkg.com/docsify-slides/dist/docsify-slides.min.js"></script>	
+	<!-- 插入pdf -->
+	<!-- https://github.com/lazypanda10117/docsify-pdf-embed -->
+	<!-- PDFObject.js is a required dependency of this plugin -->
+	<script src="//cdnjs.cloudflare.com/ajax/libs/pdfobject/2.1.1/pdfobject.min.js"></script> 
+	<!-- This is the source code of the pdf embed plugin -->
+	<script src="path-to-file/docsify-pdf-embed.js"></script>
+	<!-- or use this if you are not hosting the file yourself -->
+	<script src="//unpkg.com/docsify-pdf-embed-plugin/src/docsify-pdf-embed.js"></script>
 	
+	<!-- docsify-wikilink 关键词链接 -->
+	<!-- https://zpengg.github.io/docsify-wikilink/#/?id=usage -->
+	<script src="https://cdn.jsdelivr.net/npm/docsify-wikilink@1"></script>
+	<!-- docsify-updated 更新日期 -->
+	<script src="https://cdn.jsdelivr.net/npm/docsify-updated/src/time-updater.min.js"></script>
+	<!-- Docsify Image Caption 图像标题 -->
+	<!-- https://h-hg.github.io/docsify-image-caption/#/?id=usage-and-preview -->
+	<script src="https://unpkg.com/@h-hg/docsify-image-caption/dist/docsify-image-caption.min.js"></script>
+
+<!-- https://docsify-preview.vercel.app/preview/#/zh-cn/awesome?id=plugins -->
+<!-- https://github.com/Make-School-Courses/Syllabus-Template -->
+<!-- https://github.com/jthegedus/docsify-select -->
+<!-- https://github.com/atleastzero/docsify-accordify -->
+<!-- https://github.com/isaozler/docsify-accordion -->
+<!--  -->
 </html>
