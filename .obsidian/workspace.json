@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GMP/1-Topology/Topological-Space.md",
+                "file": "GMP/1-Topology/quality-of-topology.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GMP/1-Topology/Topological-Space.md",
+                "file": "GMP/1-Topology/quality-of-topology.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "GMP/1-Topology/Topological-Space.md",
+                "file": "GMP/1-Topology/quality-of-topology.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GMP/1-Topology/Topological-Space.md"
+                "file": "GMP/1-Topology/quality-of-topology.md"
               }
             }
           }
@@ -148,13 +148,15 @@
   },
   "active": "66fd815c2bb4acc6",
   "lastOpenFiles": [
+    "_to-do-list.md",
+    "GMP/1-Topology/Topological-Space.md",
+    "GMP/1-Topology/quality-of-topology.md",
     "pic/B-A.webp~",
     "pic/B-A.webp",
     "pic/B-A.webp.crdownload",
     "README.md",
     "Setting/_sidebar.md",
     "TO-DO LIST.md",
-    "GMP/1-Topology/Topological-Space.md",
     "pic/B(x,ϵ).png",
     "pic/1720659043093.png.crdownload",
     "svg/OpenDisk.svg",
@@ -168,7 +170,6 @@
     "docsify-glossary.min.js",
     "docsify-glossary.js",
     "@stijn-dejongh/docsify-glossary.min.js",
-    "@stijn-dejongh/docsify-glossary.js",
     "GMP/1-Topology/Topological-Space_en.md",
     "under-construction.md",
     "_glossary.md",
