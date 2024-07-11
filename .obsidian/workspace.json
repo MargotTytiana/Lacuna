@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "a217fd7e880c8cfd",
+        "id": "1d28e37ac5243fdc",
         "type": "tabs",
         "children": [
           {
-            "id": "b83f6de4847425b3",
+            "id": "66fd815c2bb4acc6",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -146,22 +146,30 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "b83f6de4847425b3",
+  "active": "66fd815c2bb4acc6",
   "lastOpenFiles": [
+    "pic/B-A.webp~",
+    "pic/B-A.webp",
+    "pic/B-A.webp.crdownload",
+    "README.md",
+    "Setting/_sidebar.md",
+    "TO-DO LIST.md",
+    "GMP/1-Topology/Topological-Space.md",
+    "pic/B(x,ϵ).png",
+    "pic/1720659043093.png.crdownload",
+    "svg/OpenDisk.svg",
+    "svg/Unconfirmed 468550.crdownload",
+    "svg/CIRCLE_1.svg",
+    "svg/Unconfirmed 386616.crdownload",
+    "GMP/1-Topology/SPQ.md",
     "svg/rocket.svg",
     "svg/神舟五号火箭.svg.crdownload",
-    "_sidebar.md",
     "@docsify-glossary.zip",
     "docsify-glossary.min.js",
     "docsify-glossary.js",
     "@stijn-dejongh/docsify-glossary.min.js",
     "@stijn-dejongh/docsify-glossary.js",
-    "@stijn-dejongh",
-    "Unconfirmed 328915.crdownload",
     "GMP/1-Topology/Topological-Space_en.md",
-    "GMP/1-Topology/Topological-Space.md",
-    "topology.pdf",
-    "topology.pdf.crdownload",
     "under-construction.md",
     "_glossary.md",
     "Setting/_glossary.md",
@@ -169,8 +177,6 @@
     "Setting/_coverpage.md",
     "pic/领域.png",
     "pic/开集.png",
-    "README.md",
-    "Setting/_sidebar.md",
     "Setting/_navbar.md",
     "Welcome.md",
     "index.md"

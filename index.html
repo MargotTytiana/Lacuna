@@ -46,7 +46,7 @@
     window.$docsify = {
 	alias: {
 		  /* 使用自定义的侧边栏 */
-		  '/_sidebar.md': '_sidebar.md',
+		  '/_sidebar.md': '/Setting/_sidebar.md',
 		  '/Setting/.*/_sidebar.md': '/Setting/_sidebar.md',
 		  '/book-sketches/.*/_sidebar.md': '/book-sketches/_sidebar.md',
 		  '/.*/_navbar.md': '/_navbar.md'
@@ -97,7 +97,7 @@
 		note: {
 			label: {
 				'/en/': 'Definition',
-				'/': '定义',
+				'/': '定义 Definition',
 				},
 			icon: 'fas far fa-book',
 			className: 'note'
@@ -105,26 +105,26 @@
 		tip: {
 			label: {
 				'/en/': 'Tip',
-				'/': '提示',
+				'/': '提示 Tip',
 				},
 			},
 		warning: {
 			label: {
 				'/en/': 'Warning',
-				'/': '警告',
+				'/': '警告 Warning',
 				},
 			},
 		attention: {
 			label: {
 				'/en/': 'Attention',
-				'/': '注意',
+				'/': '注意 Attention',
 				},
 			},
 		},
 	glossify: {
 	    debug: true,
 	    // glossaryLocation: './X_Appendix/Glossary/HOME.md', # default is '_glossary.md'
-	    terminologyHeading: '#', // default is '####', overwrite to fit your glossary heading depth
+	    terminologyHeading: '####', // default is '####', overwrite to fit your glossary heading depth
 	    replaceTitleTerms: true,
 		},
 	timeUpdater: {
