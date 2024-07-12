@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GMP/1-Topology/quality-of-topology.md",
+                "file": "GMP/1-Topology/summary.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GMP/1-Topology/quality-of-topology.md",
+                "file": "GMP/1-Topology/summary.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "GMP/1-Topology/quality-of-topology.md",
+                "file": "GMP/1-Topology/summary.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GMP/1-Topology/quality-of-topology.md"
+                "file": "GMP/1-Topology/summary.md"
               }
             }
           }
@@ -148,28 +148,31 @@
   },
   "active": "66fd815c2bb4acc6",
   "lastOpenFiles": [
-    "_to-do-list.md",
     "GMP/1-Topology/Topological-Space.md",
-    "GMP/1-Topology/quality-of-topology.md",
-    "pic/B-A.webp~",
-    "pic/B-A.webp",
-    "pic/B-A.webp.crdownload",
+    "css/nav-dark.css",
+    "css/index.css.crdownload",
+    "css/nav-dark.js",
+    "css/Unconfirmed 243203.crdownload",
+    "css/navbar-fixed.css",
+    "Setting/navbar-fixed.css",
+    "docsify-navbar-fixed-main/fab922a8-736e-4cb5-a666-4fd849a3049a.txt",
+    "docsify-navbar-fixed-main/navbar-fixed.css",
+    "docsify-navbar-fixed-main",
+    "docsify-navbar-fixed-main.zip",
+    "GMP/1-Topology/summary.md",
+    "GMP/1-Topology/Topology.md",
     "README.md",
+    "Welcome.md",
+    "GMP/1-Topology/quality-of-topology.md",
+    "_to-do-list.md",
+    "pic/B-A.webp",
     "Setting/_sidebar.md",
     "TO-DO LIST.md",
     "pic/B(x,ϵ).png",
-    "pic/1720659043093.png.crdownload",
     "svg/OpenDisk.svg",
-    "svg/Unconfirmed 468550.crdownload",
     "svg/CIRCLE_1.svg",
-    "svg/Unconfirmed 386616.crdownload",
     "GMP/1-Topology/SPQ.md",
     "svg/rocket.svg",
-    "svg/神舟五号火箭.svg.crdownload",
-    "@docsify-glossary.zip",
-    "docsify-glossary.min.js",
-    "docsify-glossary.js",
-    "@stijn-dejongh/docsify-glossary.min.js",
     "GMP/1-Topology/Topological-Space_en.md",
     "under-construction.md",
     "_glossary.md",
@@ -179,7 +182,6 @@
     "pic/领域.png",
     "pic/开集.png",
     "Setting/_navbar.md",
-    "Welcome.md",
     "index.md"
   ]
 }
