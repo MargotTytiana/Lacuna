@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "f2eb41d5192f5af9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GMP/1-Topology/Metric-Spaces.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GMP/1-Topology/summary.md",
+                "file": "GMP/1-Topology/Metric-Spaces.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "GMP/1-Topology/summary.md",
+                "file": "GMP/1-Topology/Metric-Spaces.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GMP/1-Topology/summary.md"
+                "file": "GMP/1-Topology/Metric-Spaces.md"
               }
             }
           }
@@ -146,19 +159,25 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "66fd815c2bb4acc6",
+  "active": "f2eb41d5192f5af9",
   "lastOpenFiles": [
+    "pic/lp.png",
+    "Pasted image 20240713102039.png",
+    "pic/开球、闭球和球面.png",
+    "pic/1720831552219.png.crdownload",
+    "GMP/1-Topology/Topological-Space_en.md",
     "GMP/1-Topology/Topological-Space.md",
-    "css/nav-dark.css",
-    "css/index.css.crdownload",
-    "css/nav-dark.js",
-    "css/Unconfirmed 243203.crdownload",
-    "css/navbar-fixed.css",
-    "Setting/navbar-fixed.css",
-    "docsify-navbar-fixed-main/fab922a8-736e-4cb5-a666-4fd849a3049a.txt",
-    "docsify-navbar-fixed-main/navbar-fixed.css",
-    "docsify-navbar-fixed-main",
-    "docsify-navbar-fixed-main.zip",
+    "GMP/1-Topology/Metric-Spaces.md",
+    "拓扑学.pdf",
+    "基础拓扑学(2版).pdf",
+    "算法图书与网站.md",
+    "Algorithm/Textbook/计算机程序设计艺术 卷4A：组合算法（一）.pdf",
+    "Algorithm/Textbook/算法（第四版）中文版 图灵程序设计丛书 Algorithms (样章) (美 Robert Sedgewick 美 Kevin Wayne译 谢路云) (Z-Library).pdf.crdownload",
+    "Algorithm/Textbook/计算机程序设计艺术 生成所有元组和排列（第4卷 第2册 双语版）.pdf",
+    "Algorithm/Textbook/计算机程序设计艺术 生成所有元组和排列（第4卷 第2册 双语版） (Donald E. Knuth) (Z-Library).pdf.crdownload",
+    "Algorithm/Textbook/计算机程序设计艺术（第3卷） 排序与查找 (Donald E.Knuth) (Z-Library).pdf.crdownload",
+    "Algorithm/Textbook/计算机程序设计艺术（第2卷） 半数值算法 (Donald E. Knuth) (Z-Library).pdf.crdownload",
+    "Algorithm/Textbook/计算机程序设计艺术 MMIX增补 (（美）高德纳（DonaldE.Knuth），（德）马丁·鲁克特（MartinRuckert）) (Z-Library).pdf.crdownload",
     "GMP/1-Topology/summary.md",
     "GMP/1-Topology/Topology.md",
     "README.md",
@@ -173,7 +192,6 @@
     "svg/CIRCLE_1.svg",
     "GMP/1-Topology/SPQ.md",
     "svg/rocket.svg",
-    "GMP/1-Topology/Topological-Space_en.md",
     "under-construction.md",
     "_glossary.md",
     "Setting/_glossary.md",
